@@ -11,8 +11,8 @@ class Reminder extends Model
 
     protected $fillable = [
         'user_id',
-        'type',
-        'reminder_date'
+        'title',
+        'time'
     ];
 
     public function user()
